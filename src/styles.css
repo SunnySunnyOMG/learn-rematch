@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  background-color: #2d3536;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #632856;
+  transform: scale(1.1);
+  transition: 200ms all;
+}
+
+input {
+  outline: none;
+  height: 20px;
+  width: 60px;
+  text-align: center;
+  font-size: 18px;
+}
